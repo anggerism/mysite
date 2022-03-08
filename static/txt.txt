@@ -1,0 +1,51 @@
+1. Graphql
+- start writing queries and getting some data into our components (title, heading, )
+- Graphql is syntax to ask data, specify data what we need
+- Data : API's, headless CMS, json, markdown
+
+2. Render option
+- Static query : regular components
+    - useStaticQuery (gatsby provided)
+    - render props
+- Page query : page components  (dynamics)
+
+3. Issue
+- cache : https://youtu.be/RaTpreA0v7Q?t=15468
+
+4. props    
+- Everytime create page -> gatsby provide props https://youtu.be/RaTpreA0v7Q?t=15621
+
+5. Plugin
+- source file : a) all file, b) file
+- Node : Object with bunch properties, like array that each item represent object. https://youtu.be/RaTpreA0v7Q?t=16773
+
+6. Backup
+---------------------------------------------------------------
+<section class="post">
+        {/* {data.allContentfulJurnal.nodes.map((node)=>{})=>} */}
+        <h2>
+          <BlogPage />
+        </h2>
+        <div className="post-info">
+          <p>
+            <span class="glyphicon glyphicon-time post-glyph"></span>
+            Feb 18, 2022
+            {/* {node.datePost} */}
+          </p>
+          <hr class="hr" />
+        </div>
+        <p>
+          {/* dynamic value : https://youtu.be/8t0vNu2fCCM?t=5995 */}
+          I've managed to find some time to finalize my latest project and its
+          documentation: the STM32 RTC Scheduler project! This is an RTC-based
+          scheduler implementation that allows applications with real-time
+          operating systems (RTOS) to schedule and execute recurring, periodic
+          tasks while minimizing power consumption to maximize battery lifetime.
+        </p>
+        <p>
+          I've managed to find some time to finalize my latest project and its
+          documentation: the STM32 RTC Scheduler project! This is an Re.
+          <Projects projects={projects} />
+        </p>
+      </section>
+      -------------------------------------------------------

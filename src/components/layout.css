@@ -1,0 +1,127 @@
+/*mengpa css ngaruh ke smua page : https://youtu.be/RaTpreA0v7Q?t=4376
+
+Gatsby global css already applied, only in development phase
+
+*/
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(226, 226, 226);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  height: 100%;
+  /* color: #333; */
+}
+
+.post {
+  background-color: #fff;
+  box-shadow: 0 0 4px #ccc;
+  margin-bottom: 40px;
+  padding: 20px 50px 40px;
+}
+
+.container {
+  width: 750px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Blog .page-header {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.Blog {
+  /* margin-top: 200px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Blog .post {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.Blog .post h2 {
+  font-size: 2em;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.Blog .post-info {
+  color: #ccc;
+}
+/*
+.intro {
+  height: 100%;
+  margin-bottom: 20px;
+  background: url(/static/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  /* -webkit-background-size: cover; */
+
+.showcase {
+  width: 100%;
+  height: 650px;
+  /* background: url(); */
+  background-image: url(../assets/images/bg2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 100px 200px 100px;
+}
+
+.intro {
+  background-color: rgba(47, 65, 84, 0.8);
+  border-radius: 4px;
+  /* position: absolute; */
+  bottom: 10%;
+  left: 15%;
+  right: 15%;
+  color: #fff;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+  box-shadow: 0 0 4px #ccc;
+  padding: 35px 35px;
+
+  /* z-index: 10; */
+}
+
+.text-center {
+  text-align: center;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.lead {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+hr {
+  color: red;
+}
